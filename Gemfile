@@ -19,6 +19,7 @@ gem "active_model_serializers"
 gem "newrelic_rpm"
 gem "skylight"
 gem "sidekiq"
+gem "faker"
 
 group :development, :test do
   gem "byebug"
@@ -32,7 +33,6 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "database_cleaner"
   gem "shoulda-matchers"
-  gem "faker"
   gem "poltergeist"
 end
 
